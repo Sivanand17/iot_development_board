@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "IOT Board Footprints") (type "KiCad") (uri "C:/Users/sivan/Documents/kicad_projects/iot_board/Footprints") (options "") (descr ""))
+)
