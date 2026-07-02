@@ -15,3 +15,4 @@ Completed:
 I spent some time understanding how the battery charging IC works and how the power section is connected. I also learned more about USB-C power input and voltage regulation.
 
 **Next:** Complete the ESP32-C3 circuit and connect the remaining peripherals.
+To see the developments in day 1, check out the images folder.
