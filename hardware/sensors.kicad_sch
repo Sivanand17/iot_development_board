@@ -2,7 +2,7 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "a1e42873-0270-439b-839e-2cf90ab55b8f")
+	(uuid "5546304e-9868-447a-ac45-340f192e6472")
 	(paper "A4")
 	(lib_symbols
 		(symbol "BME280:BME280"
@@ -1965,6 +1965,36 @@
 		)
 		(uuid "a466effe-a23e-434c-afe7-a4df6ba89f6b")
 	)
+	(text "Microphone and amplifier"
+		(exclude_from_sim no)
+		(at 151.638 88.138 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "58ee4e78-2a45-412f-ae88-9b3c0b2fc6c5")
+	)
+	(text "BME280_sensor"
+		(exclude_from_sim no)
+		(at 46.228 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a42120d8-4e2d-4da4-95cf-d20a31efdbb1")
+	)
+	(text "PHOTO SENSOR"
+		(exclude_from_sim no)
+		(at 185.42 38.354 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb4b855b-d352-4abc-8095-0e09e8452def")
+	)
 	(junction
 		(at 54.61 62.23)
 		(diameter 0)
@@ -2817,36 +2847,6 @@
 		)
 		(uuid "fa6cfd99-df76-41e9-971a-dc46f4cfa4f1")
 	)
-	(label "BME280_sensor"
-		(at 38.1 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42642a79-b0aa-4da3-819f-60f79b81fbb9")
-	)
-	(label "PHOTO SENSOR"
-		(at 177.8 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d3f1e52-d619-4a11-b14e-e1e828b8315b")
-	)
-	(label "Microphone and amplifier"
-		(at 139.7 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5276174-53d2-4d39-9a59-b0571546b42d")
-	)
 	(hierarchical_label "PHOTO_C"
 		(shape input)
 		(at 226.06 64.77 0)
@@ -2903,7 +2903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06db5c65-f993-4c68-9ec8-3a55d41c0bc8")
-		(property "Reference" "R15"
+		(property "Reference" "R21"
 			(at 57.15 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2925,7 +2925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 52.832 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -2967,7 +2967,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "R15")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -3063,7 +3063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cb8af88-a472-4ca7-ba20-981ac1326460")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 187.96 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3085,7 +3085,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 183.642 119.38 90)
 			(hide yes)
 			(show_name no)
@@ -3127,7 +3127,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "R27")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -3244,7 +3244,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 253.6952 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -3304,7 +3304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e1da5c2-dab5-4ace-b7e5-24e58f9fbef6")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR044"
 			(at 215.9 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3364,7 +3364,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "#PWR041")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -3382,7 +3382,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e3e3c79-cb18-488a-9059-243830b67a65")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR041"
 			(at 177.8 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3442,7 +3442,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "#PWR045")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -3460,7 +3460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52565c0d-5814-449c-9846-22d80a191753")
-		(property "Reference" "R17"
+		(property "Reference" "R22"
 			(at 67.31 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3482,7 +3482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 62.992 54.61 90)
 			(hide yes)
 			(show_name no)
@@ -3524,7 +3524,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "R17")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -3564,7 +3564,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.0752 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -3623,7 +3623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c3c19fe-3cda-4467-8647-6ec59622a6dc")
-		(property "Reference" "C20"
+		(property "Reference" "C17"
 			(at 231.902 154.686 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3643,7 +3643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 234.95 150.1648 0)
 			(hide yes)
 			(show_name no)
@@ -3685,7 +3685,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "C20")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3801,7 +3801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 166.37 112.0648 0)
 			(hide yes)
 			(show_name no)
@@ -3861,7 +3861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba5b1767-9063-4b67-853f-4cb6c364839f")
-		(property "Reference" "R28"
+		(property "Reference" "R24"
 			(at 173.99 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3883,7 +3883,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 169.672 118.11 90)
 			(hide yes)
 			(show_name no)
@@ -3925,7 +3925,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "R28")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3943,7 +3943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be306040-228d-4416-80b6-7d74cb4996a5")
-		(property "Reference" "U2"
+		(property "Reference" "U6"
 			(at 100.33 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4157,7 +4157,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "U2")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4175,7 +4175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be8a40f8-6eb7-4570-a661-39d3e63aa6e8")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR046"
 			(at 252.73 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4235,7 +4235,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -4253,7 +4253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c459243e-b9b5-4b42-8bb1-66c0f0fffb08")
-		(property "Reference" "R21"
+		(property "Reference" "R28"
 			(at 218.44 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4275,7 +4275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 214.122 55.88 90)
 			(hide yes)
 			(show_name no)
@@ -4317,7 +4317,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "R21")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -4335,7 +4335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5dd82bc-0e98-4199-af85-43c30f721068")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 204.47 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -4395,7 +4395,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -4412,7 +4412,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ca5abb31-4b6f-482f-9bfa-abb45dd92b1c")
-		(property "Reference" "R31"
+		(property "Reference" "R29"
 			(at 230.632 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4432,7 +4432,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 231.14 146.558 90)
 			(hide yes)
 			(show_name no)
@@ -4474,7 +4474,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "R31")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf421458-6913-4a0d-bd65-648474991b8b")
-		(property "Reference" "R30"
+		(property "Reference" "R27"
 			(at 203.2 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4514,7 +4514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 198.882 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -4556,7 +4556,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "R30")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4764,7 +4764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d951968f-ad31-45d6-b80e-29e0c91ec0de")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR040"
 			(at 151.13 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4824,7 +4824,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "#PWR046")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -4842,7 +4842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de2e44f4-d6dc-4d44-9343-19ae322b9375")
-		(property "Reference" "R26"
+		(property "Reference" "R23"
 			(at 173.99 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4864,7 +4864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 169.672 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -4906,7 +4906,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "R26")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -4924,7 +4924,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e64eebee-6f7b-4bc8-9cbd-b9de78937a52")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 189.23 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4984,7 +4984,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -5080,7 +5080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0902478-9445-483a-89fd-ee92adf7c9f9")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR045"
 			(at 252.73 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5140,7 +5140,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "#PWR042")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5333,7 +5333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f60563b1-bf2b-46d6-828f-a94ac9da034f")
-		(property "Reference" "R29"
+		(property "Reference" "R26"
 			(at 187.96 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5355,7 +5355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 183.642 135.89 90)
 			(hide yes)
 			(show_name no)
@@ -5397,7 +5397,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f/73ad3676-0386-481c-86e2-4b9b63c0246f"
-					(reference "R29")
+					(reference "R26")
 					(unit 1)
 				)
 			)
