@@ -5166,12 +5166,12 @@
 		(uuid "1a207e2c-9351-4c06-a8cd-2996aa2aa507")
 	)
 	(label "VBUS"
-		(at 50.8 58.42 0)
+		(at 57.15 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "30415247-5fb8-4b2d-9e1e-3146b957267e")
 	)
@@ -5206,22 +5206,22 @@
 		(uuid "4d9ded74-107f-4c6f-a0c6-94fd2348bfb8")
 	)
 	(label "USB_DP"
-		(at 48.26 52.07 0)
+		(at 57.15 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "530e5cee-67ac-4e35-82e5-53b45cfacd64")
 	)
 	(label "USB_DN"
-		(at 48.26 54.61 0)
+		(at 57.15 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "55f5d1fb-6097-4eb8-995e-e5e414a0e66b")
 	)
@@ -5256,7 +5256,7 @@
 		(uuid "70cd4810-0519-4918-a595-17eccc9a4b05")
 	)
 	(label "VBUS"
-		(at 99.06 58.42 0)
+		(at 97.79 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5276,7 +5276,7 @@
 		(uuid "90c8eff6-8850-4571-abae-8004facc811e")
 	)
 	(label "USB_DP"
-		(at 99.06 52.07 0)
+		(at 97.79 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5326,7 +5326,7 @@
 		(uuid "a67fcf92-f6e4-41b9-844f-eb8df70b897b")
 	)
 	(label "USB_DN"
-		(at 99.06 54.61 0)
+		(at 97.79 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5376,12 +5376,12 @@
 		(uuid "dfab6705-e15e-4c9b-a4f7-a3c82f506354")
 	)
 	(label "VBUS"
-		(at 50.8 45.72 0)
+		(at 57.15 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f7622e73-0780-4d78-8f2f-bb57952f0d54")
 	)

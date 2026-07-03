@@ -3942,6 +3942,18 @@
 		)
 	)
 	(rectangle
+		(start 171.196 34.29)
+		(end 280.924 99.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "04336ea1-4738-491a-b135-e4d0166c84f5")
+	)
+	(rectangle
 		(start 29.972 22.098)
 		(end 157.734 120.904)
 		(stroke
@@ -3978,10 +3990,22 @@
 		(uuid "33c985bf-30b5-4899-bd9f-0241570d2281")
 	)
 	(junction
+		(at 265.43 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37839420-530d-472e-8e1a-bbca4a993d8d")
+	)
+	(junction
 		(at 64.77 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45a1b053-c2f1-44b4-8af8-62ac6dfc43ef")
+	)
+	(junction
+		(at 265.43 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acdce93e-099c-4753-b036-472ca605db6b")
 	)
 	(junction
 		(at 40.64 78.74)
@@ -4000,6 +4024,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d402c330-623f-4794-be7b-914e3e824032")
+	)
+	(junction
+		(at 236.22 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fffef1ba-1e60-4249-8e77-2d775afce4be")
 	)
 	(no_connect
 		(at 97.79 76.2)
@@ -4073,6 +4103,26 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 52.07) (xy 265.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c127360-859b-4886-80e8-c292b7ccf7d6")
+	)
+	(wire
+		(pts
+			(xy 271.78 58.42) (xy 271.78 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2143a331-8a97-4d2e-a709-9a9af974671c")
+	)
+	(wire
+		(pts
 			(xy 118.11 96.52) (xy 113.03 96.52)
 		)
 		(stroke
@@ -4090,6 +4140,16 @@
 			(type default)
 		)
 		(uuid "2d65c1a6-28e1-4850-9529-75d1269bed2d")
+	)
+	(wire
+		(pts
+			(xy 271.78 74.93) (xy 271.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3350e01e-0dbe-4a3c-a48a-ff17fa7b4dfa")
 	)
 	(wire
 		(pts
@@ -4120,6 +4180,26 @@
 			(type default)
 		)
 		(uuid "40fa9e60-fddc-4046-85e9-e27eeb09e992")
+	)
+	(wire
+		(pts
+			(xy 231.14 58.42) (xy 237.49 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e119d7-321b-4d77-b4a9-6006e7885f41")
+	)
+	(wire
+		(pts
+			(xy 265.43 58.42) (xy 271.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d08b997-4e2b-4b4a-a8c0-2c0e0640b748")
 	)
 	(wire
 		(pts
@@ -4163,6 +4243,26 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 74.93) (xy 265.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7a4315-e929-4e38-a84b-4ef00927a988")
+	)
+	(wire
+		(pts
+			(xy 236.22 52.07) (xy 236.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f87b118-dc33-470f-bfd4-5955348c5956")
+	)
+	(wire
+		(pts
 			(xy 125.73 83.82) (xy 128.27 83.82)
 		)
 		(stroke
@@ -4173,6 +4273,26 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 59.69) (xy 231.14 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "642a9303-abd2-4f5c-b31f-e02a4778be89")
+	)
+	(wire
+		(pts
+			(xy 236.22 52.07) (xy 265.43 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646f6138-d0b9-4ce5-a90c-3c479d9d40c6")
+	)
+	(wire
+		(pts
 			(xy 40.64 66.04) (xy 40.64 68.58)
 		)
 		(stroke
@@ -4180,6 +4300,16 @@
 			(type default)
 		)
 		(uuid "67c89f4d-edfa-4991-8eb9-9f450aad151e")
+	)
+	(wire
+		(pts
+			(xy 245.11 58.42) (xy 250.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69cc60f6-d6a1-41e2-9f8d-5b8a7e7ab5b2")
 	)
 	(wire
 		(pts
@@ -4233,6 +4363,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 78.74) (xy 265.43 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c895157-5979-4f76-8583-114b18e01aa7")
+	)
+	(wire
+		(pts
 			(xy 64.77 39.37) (xy 68.58 39.37)
 		)
 		(stroke
@@ -4263,6 +4403,26 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 58.42) (xy 259.08 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5d5f85-a430-4fd6-818f-7019e019f6e2")
+	)
+	(wire
+		(pts
+			(xy 265.43 74.93) (xy 271.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f8c95e0-6a52-4cf3-a267-0026d0e09eb3")
+	)
+	(wire
+		(pts
 			(xy 58.42 99.06) (xy 58.42 68.58)
 		)
 		(stroke
@@ -4280,6 +4440,16 @@
 			(type default)
 		)
 		(uuid "ad09e699-c917-4d2c-9288-a7a223169304")
+	)
+	(wire
+		(pts
+			(xy 231.14 52.07) (xy 236.22 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad326c84-9a94-4f9f-9670-9eb0de8a2beb")
 	)
 	(wire
 		(pts
@@ -4303,6 +4473,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 85.09) (xy 240.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c148b0-5d8a-458b-af7d-a7265506eb1c")
+	)
+	(wire
+		(pts
 			(xy 46.99 105.41) (xy 53.34 105.41)
 		)
 		(stroke
@@ -4320,6 +4500,16 @@
 			(type default)
 		)
 		(uuid "c82c8422-b207-48ef-8a51-00c6ea253d86")
+	)
+	(wire
+		(pts
+			(xy 231.14 85.09) (xy 240.03 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c94cc057-bd5e-4ee6-81ee-c29612122f56")
 	)
 	(wire
 		(pts
@@ -4433,6 +4623,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 69.85) (xy 259.08 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb236c57-d8d8-4545-83d3-b6f6e20b0ba4")
+	)
+	(wire
+		(pts
 			(xy 82.55 33.02) (xy 76.2 33.02)
 		)
 		(stroke
@@ -4443,6 +4643,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 58.42) (xy 265.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29b8d5c-ec19-440b-b507-66dfb44070e0")
+	)
+	(wire
+		(pts
 			(xy 40.64 66.04) (xy 50.8 66.04)
 		)
 		(stroke
@@ -4450,6 +4660,16 @@
 			(type default)
 		)
 		(uuid "f4460d3c-5dcd-4d04-9110-fe56ad3cf8bb")
+	)
+	(wire
+		(pts
+			(xy 186.69 74.93) (xy 195.58 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5e0cd79-01c7-4609-9a4d-49ad7172ed04")
 	)
 	(wire
 		(pts
@@ -4471,8 +4691,48 @@
 		)
 		(uuid "fef17bbf-42b1-4a50-beea-6cde70ce7629")
 	)
+	(label "SCLK"
+		(at 179.07 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08578d6a-6c23-4943-95d2-9792895e1970")
+	)
+	(label "SDA"
+		(at 195.58 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c4cc7b6-a584-44cd-9069-0fa5ae44a42a")
+	)
+	(label "CD_SD"
+		(at 195.58 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "100d6f20-f882-4715-a707-aa1df59992f7")
+	)
+	(label "GPI19"
+		(at 231.14 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "187a628c-b84d-4df7-ba35-f4c87521e48f")
+	)
 	(label "TX_RX"
-		(at 99.06 53.34 0)
+		(at 97.79 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4480,6 +4740,16 @@
 			(justify left bottom)
 		)
 		(uuid "18a5d5b6-9b65-4622-8910-4fd022f20764")
+	)
+	(label "CS"
+		(at 231.14 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a24dd62-7a9f-4d22-b677-ae4ac678acce")
 	)
 	(label "Charged"
 		(at 124.46 100.33 180)
@@ -4491,8 +4761,18 @@
 		)
 		(uuid "45c679d9-cdfc-4c52-a0f5-32378f338cff")
 	)
+	(label "RX_TX"
+		(at 195.58 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a6b151c-5cb4-411a-8c16-aff903ff57b2")
+	)
 	(label "RTS"
-		(at 99.06 58.42 0)
+		(at 97.79 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4502,7 +4782,7 @@
 		(uuid "505b7ecb-b24e-49c8-a14d-d1cb24f1a573")
 	)
 	(label "RX_TX"
-		(at 99.06 55.88 0)
+		(at 97.79 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4511,8 +4791,28 @@
 		)
 		(uuid "5140417d-586d-4e88-8803-9dcc73373e4f")
 	)
+	(label "MIC_OUT"
+		(at 195.58 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55ca7ae2-490b-4e24-8bf4-1e5313d57a54")
+	)
+	(label "ESP32-C3-WROOM-D2-H4"
+		(at 171.45 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56ca5c54-219b-4717-905a-1eef1102dc05")
+	)
 	(label "DTS"
-		(at 99.06 60.96 0)
+		(at 97.79 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4520,6 +4820,66 @@
 			(justify left bottom)
 		)
 		(uuid "5a5091db-95df-4a65-8698-2b0086d95aac")
+	)
+	(label ""
+		(at 102.87 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b6ff838-4ccb-4012-99e4-0eb06c35826f")
+	)
+	(label "EN"
+		(at 195.58 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6330ab30-c72a-4eeb-8066-142421075997")
+	)
+	(label "GPI18"
+		(at 231.14 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e4092ed-618f-4dcb-9b62-5eed5d88408b")
+	)
+	(label "GPI08"
+		(at 231.14 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "717b4792-0bbd-420b-9f2f-1f60dd84038c")
+	)
+	(label "PHOTO_C"
+		(at 195.58 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "87087b6d-5375-46c4-8fed-baedba5ee593")
+	)
+	(label "TX_RX"
+		(at 195.58 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "89a89e61-49a7-48d2-b5db-f38ca1e2f4bf")
 	)
 	(label "USB_module"
 		(at 30.48 21.59 0)
@@ -4541,6 +4901,36 @@
 		)
 		(uuid "b3d167f0-d43f-481d-8226-4d47d7ebb34a")
 	)
+	(label "MISO_DO"
+		(at 195.58 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b904ad77-23ab-42dd-9118-b4e6db3f137f")
+	)
+	(label "SCL"
+		(at 195.58 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ca57f9f4-8552-4d23-9969-b58062f07957")
+	)
+	(label "MOSI_DI"
+		(at 250.19 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db8964bc-f801-41f7-a498-23538480a299")
+	)
 	(label "USB_D+"
 		(at 59.69 71.12 0)
 		(effects
@@ -4560,6 +4950,16 @@
 			(justify right bottom)
 		)
 		(uuid "e82b98fc-cf14-48ad-a1b2-ac74c381c09d")
+	)
+	(label "BOOT"
+		(at 231.14 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4f197b9-378a-4640-a44a-8c3419404870")
 	)
 	(label "USB_DP"
 		(at 7.6988 2.0957 180)
@@ -4694,8 +5094,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 236.22 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b1e2b65-dd68-4e68-99ca-50875cbbf4b7")
+		(property "Reference" "#PWR026"
+			(at 236.22 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 236.22 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 236.22 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94a16e78-1580-4ed9-ba2b-bcab79f0c59e")
+		)
+		(instances
+			(project "iot_board"
+				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "W25Q32JVSSIQ:W25Q32JVSSIQ")
-		(at 105.41 139.7 0)
+		(at 82.55 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4705,7 +5183,7 @@
 		(dnp no)
 		(uuid "249730fa-7895-4431-9ae5-c14816fb9363")
 		(property "Reference" "U6"
-			(at 105.41 124.46 0)
+			(at 82.55 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4715,7 +5193,7 @@
 			)
 		)
 		(property "Value" "W25Q32JVSSIQ"
-			(at 105.41 127 0)
+			(at 82.55 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4725,7 +5203,7 @@
 			)
 		)
 		(property "Footprint" "W25Q32JVSSIQ:SOIC127P790X216-8N"
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4737,7 +5215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4748,7 +5226,7 @@
 			)
 		)
 		(property "Description" "FLASH - NOR Memory IC 32Mb (4M x 8) SPI - Quad I/O 133 MHz 8-SOIC"
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4760,7 +5238,7 @@
 			)
 		)
 		(property "SHOP" ""
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4772,7 +5250,7 @@
 			)
 		)
 		(property "MF" "Winbond"
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4784,7 +5262,7 @@
 			)
 		)
 		(property "Package" "SOIC-8 Winbond"
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4796,7 +5274,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4808,7 +5286,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond+Electronics/view-part/?ref=snap"
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4820,7 +5298,7 @@
 			)
 		)
 		(property "MP" "W25Q32JVSSIQ"
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4832,7 +5310,7 @@
 			)
 		)
 		(property "M_PART_NUMBER" "W25QXX"
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4844,7 +5322,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4856,7 +5334,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/W25Q32JVSSIQ/Winbond+Electronics/view-part/?ref=eda"
-			(at 105.41 139.7 0)
+			(at 82.55 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5151,26 +5629,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3cba441a-f012-432d-af05-ac4337b5c217")
-		(property "Reference" "R13"
-			(at 120.6499 93.98 0)
+		(property "Reference" "R18"
+			(at 121.92 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "470"
-			(at 123.1899 93.98 0)
+			(at 121.92 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -5215,7 +5691,7 @@
 		(instances
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f"
-					(reference "R13")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5317,8 +5793,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 271.78 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4bb3a18b-377b-48f3-84cd-d011e1190356")
+		(property "Reference" "C8"
+			(at 274.32 68.326 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 275.59 66.4209 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 272.7452 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 271.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 271.78 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "42c539f4-dc66-4c89-aa9c-8fd4062db3cc")
+		)
+		(pin "1"
+			(uuid "ff4e2eb7-e0bd-4bd7-b183-ec04b35c41d4")
+		)
+		(instances
+			(project "iot_board"
+				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 259.08 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d867dae-c4fa-4081-aef5-301d63d63f60")
+		(property "Reference" "C7"
+			(at 261.874 65.278 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 261.366 68.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.0452 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 259.08 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "107cc45b-d30c-498c-891c-384d651bf4b2")
+		)
+		(pin "2"
+			(uuid "494f6313-849c-4b55-b4ab-d52b2e551236")
+		)
+		(instances
+			(project "iot_board"
+				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ESP32-C3-WROOM-02-H4:ESP32-C3-WROOM-02-H4")
-		(at 196.85 77.47 0)
+		(at 213.36 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5329,7 +5967,7 @@
 		(fields_autoplaced yes)
 		(uuid "63fa2af1-8709-41dc-8973-62f8d5296854")
 		(property "Reference" "U3"
-			(at 196.85 52.07 0)
+			(at 213.36 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5339,7 +5977,7 @@
 			)
 		)
 		(property "Value" "ESP32-C3-WROOM-02-H4"
-			(at 196.85 54.61 0)
+			(at 213.36 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5349,7 +5987,7 @@
 			)
 		)
 		(property "Footprint" "ESP32-C3-WROOM-02-H4:MODULE_ESP32-C3-WROOM-02-H4"
-			(at 196.85 77.47 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5361,7 +5999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 77.47 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5372,7 +6010,7 @@
 			)
 		)
 		(property "Description" "WiFi Modules (802.11) (Engineering Samples) SMD module, ESP32-C3, 4MB SPI flash, PCB antenna, -40 C +105 C"
-			(at 196.85 77.47 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5384,7 +6022,7 @@
 			)
 		)
 		(property "MF" "Espressif Systems"
-			(at 196.85 77.47 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +6034,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 196.85 77.47 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +6046,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 196.85 77.47 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5420,7 +6058,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/ESP32-C3-WROOM-02-H4/Espressif+Systems/view-part/?ref=eda"
-			(at 196.85 77.47 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5432,7 +6070,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ESP32-C3-WROOM-02-H4/Espressif+Systems/view-part/?ref=snap"
-			(at 196.85 77.47 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5444,7 +6082,7 @@
 			)
 		)
 		(property "MP" "ESP32-C3-WROOM-02-H4"
-			(at 196.85 77.47 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5456,7 +6094,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 196.85 77.47 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5468,7 +6106,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://pricing.snapeda.com/search/part/ESP32-C3-WROOM-02-H4/?ref=eda"
-			(at 196.85 77.47 0)
+			(at 213.36 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,6 +6238,162 @@
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64648ca4-e40d-4909-930c-31a3cae74057")
+		(property "Reference" "#PWR025"
+			(at 240.03 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0d7afe78-a42c-4a30-854b-732d11108609")
+		)
+		(instances
+			(project "iot_board"
+				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a3eeef4-9c73-4437-8213-4f7c49d71dbe")
+		(property "Reference" "#PWR027"
+			(at 265.43 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a702b1f-7121-4216-b7a1-356f6e0301cc")
+		)
+		(instances
+			(project "iot_board"
+				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -6058,6 +6852,164 @@
 			(project "iot_board"
 				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 182.88 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5ff728c-a4bb-453c-ab07-62408b606479")
+		(property "Reference" "R20"
+			(at 182.626 72.898 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 182.372 78.232 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 76.708 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 182.88 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d087edee-2252-42cc-b2c6-db82695fa77b")
+		)
+		(pin "2"
+			(uuid "c188a002-5ff5-4ff4-bce8-72021507ff0e")
+		)
+		(instances
+			(project "iot_board"
+				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a6d7cde0-6cec-43f2-a01d-522cb50792e6")
+		(property "Reference" "R13"
+			(at 241.808 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "50"
+			(at 241.808 55.626 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 60.198 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7e8fc36-8548-41b3-877d-ba2e7bd086bc")
+		)
+		(pin "2"
+			(uuid "27ed295a-a90c-495b-b2d4-7a30903ce29b")
+		)
+		(instances
+			(project "iot_board"
+				(path "/32f4a40d-6939-405a-8e7e-c6d0e82e69e6/0016dce1-cab5-4d90-b9e5-1e0111bd767f"
+					(reference "R13")
 					(unit 1)
 				)
 			)
