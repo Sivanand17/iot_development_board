@@ -1,52 +1,36 @@
-# Day 1 - Started Schematic Design
+Day 1
 
-**Date:** 2 July 2026
+Title:
 
-Today I started working on the schematic of my ESP32-C3 IoT development board in KiCad 9.
+Started the power section and project structure
 
-Completed:
-- USB Type-C connector 
-- Li-Po battery charging circuit
-- 3.3V LDO regulator
-- Battery connector
-- Power LED
-- Created the ESP32-C3 hierarchical sheet
+Content:
 
-I spent some time understanding how the battery charging IC works and how the power section is connected. I also learned more about USB-C power input and voltage regulation.
+Today I started the schematic for my ESP32-C3 IoT development board in KiCad. I decided to begin with the power section because every other part of the board depends on having a stable power supply.
 
-**Next:** Complete the ESP32-C3 circuit and connect the remaining peripherals.
-To see the developments in day 1, check out the images folder.
+I completed the USB Type-C input, Li-Po battery charging circuit, 3.3V LDO regulator, battery connector, and a power indicator LED. While working on the charging circuit, I spent some time reading the MCP73871 datasheet because I wanted to understand what each pin was doing instead of just copying the circuit.
 
-# Day 2 - Completed Major Functional Blocks
+One thing that slowed me down was setting up some of the required symbols and footprints. I also had to double-check a few connections after comparing them with the datasheet to make sure I hadn't missed anything.
 
-**Date:** 4 July 2026
+By the end of the session, the power section was complete and I was ready to start building the rest of the board.
 
-Today I made good progress on the schematic by completing most of the remaining functional blocks of the ESP32-C3 IoT development board.
+Hours: About 2.5 hours
 
-### Completed
-- ESP32-C3 main circuit
-- USB to UART interface using CP2102
-- External SPI flash memory
-- MicroSD card interface
-- BME280 sensor circuit
-- Photo sensor circuit
-- Microphone amplifier circuit
-- Reset and Boot button circuit
-- OLED (I2C) connector
-- GPIO breakout header
-- Test points for debugging
+Day 2
 
-I also organized the design into hierarchical sheets to keep the schematic cleaner and easier to navigate.
+Title:
 
-### Challenges
+Added the ESP32 core and remaining peripheral circuits
 
-I spent some time fixing hierarchical sheet connections, assigning footprints, and resolving ERC issues caused by duplicate component references.
-To see the developments in day 2, check out the images folder.
+Content:
 
+Today I focused on building the main functional blocks of the board. I completed the ESP32-C3 circuit, USB-to-UART interface using the CP2102, SPI flash memory, MicroSD card interface, sensor circuits, microphone amplifier, reset and boot buttons, OLED connector, GPIO breakout header, and test points.
 
-### Next
+To keep the project organized, I separated different parts of the design into hierarchical sheets. At first I had trouble getting the sheet connections to appear correctly on the root schematic, and I also ran into duplicate reference errors while annotating the design. After checking the sheet connections and re-annotating the project, the errors were resolved.
 
-- Finish ERC with no errors
-- Assign footprints to all components
-- Review the complete schematic
-- Start PCB layout
+I also started assigning footprints to the components. This took longer than expected because I wanted to make sure the footprints matched the actual components I plan to use instead of selecting them randomly.
+
+The schematic is now much closer to completion, and my next goal is to finish the remaining ERC issues, verify every connection, and start the PCB layout.
+
+Hours: About 6.5 hours
+
