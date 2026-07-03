@@ -5365,6 +5365,16 @@
 		)
 		(uuid "100d6f20-f882-4715-a707-aa1df59992f7")
 	)
+	(label "MIC_OUT"
+		(at 154.94 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14028b77-a161-4c9a-ad46-da8bea64e13d")
+	)
 	(label "GPI19"
 		(at 231.14 72.39 0)
 		(effects
@@ -5585,6 +5595,16 @@
 		)
 		(uuid "89a89e61-49a7-48d2-b5db-f38ca1e2f4bf")
 	)
+	(label "SDA"
+		(at 154.94 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a6c4f9e-5c5b-4a46-8326-8ad921b4a2af")
+	)
 	(label "SCLK"
 		(at 163.83 62.23 0)
 		(effects
@@ -5665,6 +5685,16 @@
 		)
 		(uuid "ca57f9f4-8552-4d23-9969-b58062f07957")
 	)
+	(label "PHOTO_C"
+		(at 154.94 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4807489-1655-4e0a-8b53-cd5ba6038254")
+	)
 	(label "MOSI_DI"
 		(at 250.19 58.42 0)
 		(effects
@@ -5734,6 +5764,16 @@
 			(justify left bottom)
 		)
 		(uuid "ee92e2b0-4c1c-46d4-9240-2f18f1206138")
+	)
+	(label "SCL"
+		(at 154.94 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0c5ebae-59be-4b54-a4b8-d38a5d9eda2d")
 	)
 	(label "BOOT"
 		(at 231.14 64.77 0)
@@ -10373,6 +10413,46 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "MIC_OUT" input
+			(at 154.94 140.97 0)
+			(uuid "af3bed20-3003-4faa-9c3d-45ba73f9d30a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PHOTO_C" input
+			(at 154.94 143.51 0)
+			(uuid "8cbba76b-f608-4725-8a9c-5b6ce2c4b5fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 154.94 146.05 0)
+			(uuid "0a6fd33e-5627-46d4-beef-82e9fbba8599")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" input
+			(at 154.94 148.59 0)
+			(uuid "b9cdc16e-0989-4b77-8ba0-d15593e2651c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
